@@ -1,0 +1,22 @@
+{
+  "lockfileVersion": 1,
+  "name": "package",
+  "description": "<h1 align='center'>Amazon EC2 Deployment \r   <span>\r   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg/1200px-AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg.png' width='5%' align='center'>\r   </span>\r </h1> \r <h2 align='center'>CICD Pipeline - GitHub Actions \r    <span>\r     <img src='https://avatars.githubusercontent.com/u/44036562?s=200&v=4' width='5%' align='center'>\r   </span>\r   + AWS CodeDeploy\r   <span>\r   <img src='img/codedeploy.png' width='5%' align='center'>\r   </span>\r </h2>\r </center>\r CI/CD tools is important to help a team to automate their testing and deployment. Some tools are specifically handle the Continuous Integration (CI) which focusing on build, test and merge the project while some manage the development and deployment (CD) side.\r <a href=\"https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e?source=friends_link&sk=9e7f3de840f32925370f65b097db3674\">Click here to see the full article/tutorial!</a>",
+  "version": "1.0.0",
+  "main": "y",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "lakshmi",
+  "license": "UNLICENSED"
+}
