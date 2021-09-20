@@ -1,14 +1,26 @@
+import boto3
 from flask import Flask, render_template,request
 from flask import url_for
 from flask_bootstrap import Bootstrap
 from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+from aws_xray_sdk.core import xray_recorder, patch_all
+from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 # from flask_mysqldb import MySQL
 # import MySQLdb.cursors
 import re
 app = Flask(__name__)
-xray_recorder.configure(service='Bitcoin application')
+
+xray_recorder.configure(
+    sampling=False,
+    context_missing='LOG_ERROR',
+    plugins=('EC2Plugin', 'ECSPlugin', 'ElasticBeanstalkPlugin'),
+    daemon_address='127.0.0.1:8080',
+    dynamic_naming='*mysite.com*',
+    service='BitCoin Flask Web App'
+)
 XRayMiddleware(app, xray_recorder)
+patch_all()
 bootstrap = Bootstrap(app)
 # app.config['MYSQL_HOST'] = 'localhost'
 # app.config['MYSQL_USER'] = 'root'
