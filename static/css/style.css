@@ -3,6 +3,15 @@ body {
   background-color: #F8F9FF;
 }
 
+.slider-2{
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+   background-image: url(../images/slider/slider-bg-2.jpg) !important;
+  /*background-color: #F8F9FF;
+  background-repeat:   no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover;
+  height: 280px; */
+}
 .jumbotron{
   /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
   background-image: url(../images/jumbotron-img.jpg) !important;
@@ -84,11 +93,11 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .btn-main, .btn-main-sm {
-  background-color: #31BB9E;
+  background-color: #375e80;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -169,7 +178,7 @@ a:focus, a:hover {
 }
 
 #preloader {
-  background: #31BB9E;
+  background: #375e80;
   height: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -384,8 +393,8 @@ a:focus, a:hover {
   height: 6px;
   position: relative;
   width: 90px;
-  background: #31BB9E;
-  border-color: #31BB9E;
+  background: #375e80;
+  border-color: #375e80;
   margin-bottom: 10px;
 }
 
@@ -416,7 +425,7 @@ a:focus, a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .slick-slide {
@@ -440,15 +449,15 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-  border: 1px solid #31BB9E;
-  background: #31BB9E;
+  border: 1px solid #375e80;
+  background: #375e80;
   color: #fff;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
-  border: 1px solid #31BB9E;
+  border: 1px solid #375e80;
   border-radius: 0;
-  background: #31BB9E;
+  background: #375e80;
   color: #fff;
 }
 
@@ -457,7 +466,7 @@ a:focus, a:hover {
 }
 
 .account {
-  background: #31BB9E;
+  background: #315472;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -513,7 +522,7 @@ a:focus, a:hover {
 }
 
 .single-page-header .breadcrumb li a {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 /*=================================================================
@@ -550,7 +559,7 @@ a:focus, a:hover {
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .navigation .navbar-toggler {
@@ -583,7 +592,7 @@ a:focus, a:hover {
 
 .navigation .dropdown .dropdown-item:hover {
   background: transparent;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .navigation .dropdown .dropdown-menu {
@@ -627,7 +636,7 @@ a:focus, a:hover {
 .navbar-brand {
   height: auto;
   padding: 8px 0;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .navbar-brand img {
@@ -716,7 +725,7 @@ a:focus, a:hover {
 
 .hero-area:before {
   content: '';
-  background: rgba(49, 187, 158, 0.84);
+  background: #375e80;
   position: absolute;
   top: 0;
   right: 0;
@@ -784,7 +793,7 @@ a:focus, a:hover {
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
   background: #fff;
-  color: #31BB9E;
+  color: #375e80;
   line-height: 80px;
   font-size: 30px;
   margin-left: 5px;
@@ -851,7 +860,7 @@ a:focus, a:hover {
 
 .about h4 {
   font-size: 14px;
-  color: #31BB9E;
+  color: #375e80;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -920,7 +929,7 @@ a:focus, a:hover {
 ==================================================================*/
 .call-to-action {
   padding: 100px 0;
-  background-color: #31BB9E;
+  background-color: #375e80;
   color: #fff;
 }
 
@@ -935,7 +944,7 @@ a:focus, a:hover {
 .call-to-action .btn-main, .call-to-action .btn-main-sm {
   margin-top: 20px;
   background: #fff;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 /*=================================================================
@@ -988,7 +997,7 @@ a:focus, a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #31BB9E;
+  border-color: #375e80;
 }
 
 .contact-form #contact-submit {
@@ -996,7 +1005,7 @@ a:focus, a:hover {
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #31BB9E;
+  background: #375e80;
   color: #fff;
   border-radius: 0;
   cursor: pointer;
@@ -1026,7 +1035,7 @@ a:focus, a:hover {
   height: 30px;
   width: 30px;
   text-align: center;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .social-icon li a i {
@@ -1124,7 +1133,7 @@ a:focus, a:hover {
 .counters-item i {
   font-size: 40px;
   display: inline-block;
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .counters-item h3 {
@@ -1139,7 +1148,7 @@ a:focus, a:hover {
 .pricing-table .pricing-tab {
   text-align: center;
   margin-bottom: 25px;
-  border: 1px solid #31BB9E;
+  border: 1px solid #375e80;
   display: inline-block;
   padding: 2px;
   margin-bottom: 50px;
@@ -1157,7 +1166,7 @@ a:focus, a:hover {
 }
 
 .pricing-table .pricing-tab li .active {
-  background: #31BB9E;
+  background: #375e80;
   border-radius: 0;
 }
 
@@ -1178,7 +1187,7 @@ a:focus, a:hover {
   color: #fff;
   font-size: 16px;
   padding: 15px;
-  background: #31BB9E;
+  background: #375e80;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -1207,7 +1216,7 @@ a:focus, a:hover {
 }
 
 .pricing-table .pricing-item .progress .progress-bar {
-  background: #31BB9E;
+  background: #375e80;
 }
 
 .pricing-table .pricing-item .btn-main, .pricing-table .pricing-item .btn-main-sm {
@@ -1228,7 +1237,7 @@ a:focus, a:hover {
 }
 
 .custom-pricing a {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .custom-pricing-form h3 {
@@ -1259,7 +1268,7 @@ a:focus, a:hover {
 
 .services .service-block i {
   font-size: 40px;
-  color: #31BB9E;
+  color: #375e80;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1312,7 +1321,7 @@ a:focus, a:hover {
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  color: #31BB9E;
+  color: #375e80;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   height: 55px;
@@ -1323,7 +1332,7 @@ a:focus, a:hover {
 }
 
 .service-list .block {
-  background: #31BB9E;
+  background: #375e80;
   color: #fff;
   padding: 30px;
 }
@@ -1362,7 +1371,7 @@ a:focus, a:hover {
 }
 
 .team-skills .progress-block .progress .progress-bar {
-  background: #31BB9E;
+  background: #375e80;
   box-shadow: none;
 }
 
@@ -1407,7 +1416,7 @@ a:focus, a:hover {
 }
 
 .development-steps .step-2 {
-  background-color: #31BB9E;
+  background-color: #375e80;
 }
 
 .development-steps .step-2 h4, .development-steps .step-2 p {
@@ -1474,7 +1483,7 @@ a:focus, a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  background: #31BB9E;
+  background: #375e80;
   position: relative;
 }
 
@@ -1487,7 +1496,7 @@ a:focus, a:hover {
 
 .testimonial .item i {
   font-size: 40px;
-  color: #31BB9E;
+  color: #375e80;
   margin-bottom: 30px;
   display: inline-block;
 }
@@ -1622,7 +1631,7 @@ a:focus, a:hover {
 }
 
 .next-prev a:hover {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .next-prev .prev-post i {
@@ -1645,7 +1654,7 @@ a:focus, a:hover {
 }
 
 .social-profile ul li a i:hover {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .comments-section {
@@ -1693,7 +1702,7 @@ a:focus, a:hover {
 }
 
 .comment-wrap .media .media-heading a {
-  color: #31BB9E;
+  color: #375e80;
   font-size: 13px;
 }
 
@@ -1718,7 +1727,7 @@ a:focus, a:hover {
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #31BB9E;
+  border: 1px solid #375e80;
 }
 
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-main-sm {
@@ -1765,7 +1774,7 @@ a:focus, a:hover {
 }
 
 .top-footer li a:hover {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .footer-bottom {
@@ -1801,7 +1810,7 @@ a:focus, a:hover {
 }
 
 .footer-bottom a {
-  color: #31BB9E;
+  color: #375e80;
 }
 
 .subscribe-form .form-control {
