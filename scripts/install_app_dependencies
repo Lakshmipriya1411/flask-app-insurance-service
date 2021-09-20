@@ -3,6 +3,5 @@ sudo pip3 install virtualenv
 cd /home/ec2-user/aws-ec2-flask-app
 virtualenv environment
 source environment/bin/activate
-sudo pip3 install aws_xray_sdk
 sudo pip3 install -r requirements.txt
 
