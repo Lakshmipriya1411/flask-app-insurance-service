@@ -1,4 +1,5 @@
 import boto3
+import botocore
 from flask import Flask, render_template,request
 from flask import url_for
 from flask_bootstrap import Bootstrap
@@ -11,15 +12,10 @@ from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 import re
 app = Flask(__name__)
 
-xray_recorder.configure(
-    sampling=False,
-    context_missing='LOG_ERROR',
-    plugins=('EC2Plugin'),
-    daemon_address='127.0.0.1:8080',
-    dynamic_naming='*mysite.com*',
-    service='aws-ec2-flask-app'
-)
+
+xray_recorder.configure(service='My Flask application')
 XRayMiddleware(app, xray_recorder)
+
 patch_all()
 bootstrap = Bootstrap(app)
 # app.config['MYSQL_HOST'] = 'localhost'
