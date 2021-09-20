@@ -14,9 +14,7 @@ app = Flask(__name__)
 xray_recorder.configure(
     sampling=False,
     context_missing='LOG_ERROR',
-    plugins=('EC2Plugin', 'ECSPlugin', 'ElasticBeanstalkPlugin'),
-    daemon_address='127.0.0.1:8080',
-    dynamic_naming='*mysite.com*',
+    plugins=('EC2Plugin'),   
     service='BitCoin Flask Web App'
 )
 XRayMiddleware(app, xray_recorder)
