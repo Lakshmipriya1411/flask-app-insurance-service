@@ -1,7 +1,7 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   continuous-integration:
     runs-on: ubuntu-latest
@@ -46,7 +46,7 @@ jobs:
         run: |
           # Assuming the Deployment Group is already setup
           aws deploy create-deployment \
-            --application-name aws-ec2-flask-app \
-            --deployment-group-name aws-ec2-flask-app-deploy \
+            --application-name aws-ec2-flask-test \
+            --deployment-group-name aws-ec2-flask-test-dg \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
