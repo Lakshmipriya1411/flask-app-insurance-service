@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/aws-ec2-flask-test
+cd /home/ec2-user/aws-ec2-flask-final
 source environment/bin/activate
 sudo unlink /tmp/supervisor.sock
 sudo unlink /var/run/supervisor.sock
