@@ -1,7 +1,7 @@
 name: CI/CD Pipeline
 on:
   push:
-    branches: [ master ]
+    branches: [ Lab1_281 ]
 jobs:
   continuous-integration:
     runs-on: ubuntu-latest
