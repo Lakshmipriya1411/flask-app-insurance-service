@@ -8,7 +8,14 @@ Bitcoin Nuggets
   
     <!-- Main Stylesheet -->
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-  
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/themefisher-font.v-2/style.css')}}">
+    <!-- bootstrap.min css -->
+ 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/slick-carousel/slick/slick.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/slick-carousel/slick/slick-theme.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/slick-carousel/slick/slick.css')}}"> -->
     <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,61 +32,7 @@ Bitcoin Nuggets
 <!--
 Fixed Navigation
 ==================================== -->
-  <section class="header  navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="../static/images/bitcoin-logo.jpg" alt="logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="tf-ion-android-menu"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ url_for('pricing') }}">Buy/Sell</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ url_for('faq') }}">F.A.Q</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ url_for('login') }}">Sign In</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ url_for('signup') }}">Sign Up</a>
-                                </li>
-    
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="team.html">Team Page</a>
-                                        <a class="dropdown-item" href="404.html">404 Page</a>
-                                        <a class="dropdown-item" href="blog.html">Blog Page</a>
-                                    </div>
-                                </li> -->
-                            </ul>
-                        </div>
-                    </nav>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-   
-{% endblock %}
-
-
-
+ 
  <!--
 Welcome Slider
 ==================================== -->
